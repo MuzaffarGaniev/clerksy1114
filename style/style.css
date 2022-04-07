@@ -1,0 +1,571 @@
+@font-face{
+    font-family: 'Recoleta';
+    src: url(../font/Recoleta/Recoleta-SemiBold.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    font-family: 'Noto Sans';
+}
+
+.container{
+    max-width: 1210px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section_container{
+    width: 980px;
+    margin: 0 auto;
+}
+
+.nav{
+    padding: 20px 0;
+}
+
+.link-other{
+    padding: 15px 25px;
+    background: #198C36;
+    border-radius: 160px;
+    transition: all 0.3s ease;
+}
+  
+.link-other:hover{
+    box-shadow: 0px 0px 7px 7px rgba(25, 140, 54, 0.39);
+    transition: all 0.3s ease;
+}
+
+/* ====== header ====== */
+
+.header{
+    background:  #163A24;
+    height: 647px;
+}
+    
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+}
+
+.link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-left: 24px;
+    color: #FBFAF7;
+}
+
+.header-content{
+    display: flex;
+}
+
+.header-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-pct{
+    width: 100%;
+    height: 544px;
+}
+
+.header-title{
+    width: 391px;
+    font-family: 'Recoleta';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    color: #FBFAF7;
+}
+
+
+.header-text{
+    width: 475px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 18px;
+    color: #FBFAF7;
+    margin-right: 17px;
+}
+
+/* ====== header ====== */
+
+/* ====== main ====== */
+
+.section{
+    padding: 120px 0;
+}
+
+.section_img{
+    width: 50%;
+}
+
+.section_something{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section_content{
+    width: 374px;
+}
+
+.section_title{
+    font-family: 'Recoleta';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #163A24;
+}
+
+.section_text{
+    width: 379px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 29px;
+    color: #163A24;
+}
+
+.section2{
+    margin-top: 115px;
+}
+
+
+.section_something2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec2_title{
+    font-family: 'Recoleta';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    margin-bottom: 67px;
+    text-align: center;
+    color: #163A24;
+    margin-top: 114px;
+}
+
+.icons{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.section3{
+    background: #163A24;
+    padding: 66px 0 120px;
+}
+
+.block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 20%;
+    text-align: center;
+}
+
+.sec3_title{
+    font-family: 'Recoleta';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #FBFAF7;
+    margin-bottom: 93px;
+}
+
+.card_text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FBFAF7;
+}
+
+.section4{
+    background: #F2EFE6;
+    padding: 120px 0;
+}
+
+.text{
+    width: 740px;
+    margin: 0 auto;
+}
+
+.sec4_title{
+    font-family: 'Recoleta';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #163A24;
+}
+
+.sec4_text{
+    width: 760px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 27px;
+    color: #163A24;
+}
+
+.section5{
+    padding-top: 180px;
+}
+
+.section6{
+    padding: 120px 0;
+}
+
+.sectionblock{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 20px;
+}
+
+
+.heed{
+    width: 160px;
+}
+
+.h1{
+    width: 285px;
+}
+
+.section_card{
+    width: 31%;
+    height: 393px;
+    padding: 50px 0 66px 40px;
+    background: #FBFAF7;
+    box-shadow: 5px 5px 20px #E9E4D5;
+    border-radius: 15px;
+}
+
+.carheight{
+    height: 430px;
+}
+
+.sec6_title{
+    font-family: 'Recoleta';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #163A24;
+}
+
+.sec6_text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 26px 0 18px;
+    text-align: center;
+    color: #163A24;
+}
+
+.sec_link{
+    list-style: disc;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;  
+    margin-left: 25px;
+    color: #163A24;
+    margin-top: 15px;
+}
+
+.card_title{
+    margin: 20px 0 23px;
+    font-family: 'Recoleta';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    color: #163A24;
+}
+
+.section7{
+    padding: 120px 0;
+    background: #F2EFE6;
+}
+
+.block_content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card_content{
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vector{
+    display: flex;
+    align-items: center;
+}
+
+.card_content_text{
+    width: 260px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #163A24;
+}
+
+.card_content_title{
+    font-family: 'Recoleta';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    color: #163A24;
+}
+
+.card_contentt{
+    position: relative;
+}
+
+
+.posblock{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.gm{
+    margin-top: 20px;
+}
+
+.sec7_link{
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 15px 25px;
+    display: inline-block;
+    background: #198C36;
+    border-radius: 160px;
+    color: #FBFAF7;    
+}
+
+.download{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 15px 25px;
+    display: inline-block;
+    background: #198C36;
+    border-radius: 160px;
+    margin-top: 20px;
+    color: #FBFAF7;
+}
+
+.section8{
+    padding: 180px 0;
+}
+
+.section9{
+    background: url(../img/secbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 415px;
+    display: flex;
+}
+
+.section9_title{
+    font-family: 'Recoleta';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #FBFAF7;
+}
+
+.section9_text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 26px 0 18px;
+    color: #FBFAF7;
+}
+
+.section9_link{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 15px 25px;
+    background: #FAB5A0;
+    border-radius: 160px;
+    display: inline-block;
+    color: #163A24;
+}
+
+.section9_link:hover{
+   box-shadow: 0px 0px 7px 7px #ffc3b148;
+   transition: all 0.3s ease;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.section10{
+    background: #F2EFE6;
+    padding: 60px 0;
+}
+
+.content{
+    display: flex;
+}
+
+.left_content{
+    width: 50%;
+}
+
+.right_content{
+    width: 50%;
+}
+
+.left_title{
+    font-family: 'Recoleta';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    margin-bottom: 26px;
+    color: #163A24;
+}
+
+.left_text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+}
+
+input{
+    width: 553px;
+    height: 54px;
+    background: #FFFFFF;
+    border: 1px solid #F2EFE6;
+    border-radius: 255px;
+    margin-bottom: 11px;
+    padding: 10px;
+}
+
+button{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FBFAF7;
+    margin-left: -79px;
+    padding: 15px 25px;
+    background: #15762E;
+    border-radius: 160px;
+    border: none;
+}
+
+.right_text{
+    width: 524px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #163A24;
+}
+
+/* ====== main ====== */
+
+/* ====== footer ====== */
+
+.footer{
+    padding-top: 40px;
+}
+.footer_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.icon{
+    display: flex;
+}
+
+.socialnetwork{
+    font-size: 30px;
+    margin-left: 14px;
+    color: #198C36;
+}
+
+.footer_title{
+    font-family: 'Recoleta';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #163A24;
+}
+
+.footer_bottom{
+    padding: 25px 0;
+    border-top: 1px solid #F2EFE6;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom_text{
+    width: 462px;
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #163A24;
+}
+
+.footer_list{
+    display: flex;
+}
+
+.footer_link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 14px;
+    color: #198C36;
+}
+
+/* ====== footer ====== */
